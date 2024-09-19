@@ -1,0 +1,17 @@
+Package: mqoi
+Type: Package
+Title: Tools for Mètodes Quantitatius d'Organització
+Version: 0.1.0
+Author: Oriol Lordan
+Maintainer: Jose M Sallan <jose.maria.sallan@upc.edu>
+Description: Tools for the course of MQOI at ESEIAAT
+License: No license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Depends:
+  data.table,
+  Rglpk,
+  kableExtra,
+  igraph
+RoxygenNote: 7.3.2
