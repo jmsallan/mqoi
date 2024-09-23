@@ -11,7 +11,7 @@ An object of class \code{character} of length 1.
 mathprog_example
 }
 \description{
-A Small Example of Linear Programming in MathProg
+A Small Example of Linear Programming in MathProg: the formulation of the Knapsack Problem with an instance.
 }
 \examples{
 writeLines(mathprog_example)

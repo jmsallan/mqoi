@@ -11,12 +11,16 @@ plem_solver(variables = list(), verbose = T, want_0 = F, math_txt = F)
 
 \item{verbose}{A flag indicating if we want a verbose output.}
 
-\item{want_0}{A flag variable.}
+\item{want_0}{Do you want the values equal to zero of the solution? (\code{FALSE} by default).}
 
-\item{math_txt}{A flag variable.}
+\item{math_txt}{Do you want the MathProg files to be tested elsewhere? (\code{FALSE} by default).}
 }
 \value{
-The solution of the model, as delivered by Rglpk.
+A list including:
+\itemize{
+\item \code{sol} the optimum value of the objective function.
+\item \code{vars} a data frame with the optimal solution.
+}
 }
 \description{
 A wrapper to load a PLEM model and solve it using Rglpk.

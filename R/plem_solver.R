@@ -4,10 +4,13 @@
 #'
 #' @param variables A named list. The element named lp.code is the model to solve.
 #' @param verbose A flag indicating if we want a verbose output.
-#' @param want_0 A flag variable.
-#' @param math_txt A flag variable.
+#' @param want_0 Do you want the values equal to zero of the solution? (`FALSE` by default).
+#' @param math_txt Do you want the MathProg files to be tested elsewhere? (`FALSE` by default).
 #'
-#' @return The solution of the model, as delivered by Rglpk.
+#' @return A list including:
+#'
+#' -  `sol` the optimum value of the objective function.
+#' -  `vars` a data frame with the optimal solution.
 #'
 #' @examples
 #' plem_solver(list(lp.code = mathprog_example))
