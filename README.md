@@ -8,7 +8,7 @@ To install the repo, install the devtools R package and type in the console:
 
 `devtools::install_github("jmsallan/mqoi", dependencies = TRUE)`
 
-This instruction will install also packages data.table, igraph and Rglpk. These packages will be used in the course.
+This instruction will install also packages `data.table`, `igraph` and `Rglpk`. These packages will be used in the course.
 
 ## Contents
 
